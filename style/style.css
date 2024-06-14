@@ -5,7 +5,7 @@
 
 
 body {
-  background: linear-gradient(-45deg, #db4214,#d3259f, #ffffff, #889da5, #8323a0);
+  background: linear-gradient(-45deg, #db4214,#425368, #5d777e, #889da5, #d9dbdb);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
@@ -110,12 +110,11 @@ body {
 .social-media a{
     display: inline-flex;
     justify-content: center;
-    width: 39px;
-    margin-inline: 4px;
-    height: 34px;
+    margin-inline: 2px;
+    padding: 2px;
     background: transparent;
     border: 1px solid rgb(71, 64, 64);
-    border-radius: 18px;
+    border-radius: 5px;
     background: rgb(59, 228, 219);
     color: aliceblue;
     text-decoration: none;
@@ -124,7 +123,7 @@ body {
   }
 
   .view-btn:hover, .social-media a:hover{
-    background: rgb(1, 187, 72);
+    background: rgb(2, 162, 255);
     color: #eeeeee;
     box-shadow: 0 0 20x rgb(224, 12, 12);
   }
@@ -146,7 +145,7 @@ body {
     box-shadow: 0 5px 5px #18067c;
     border-radius: 40px;
     font-weight: bold;
-    transition: .0.5s ease;
+    transition: 0.5s ease;
   }
 
 
@@ -230,6 +229,10 @@ body {
   align-items: stretch;
 }
 
+.Mainhero {
+  border-bottom-right-radius: 200px;
+  border-bottom-left-radius: 200px;
+}
 .projectz {
   display: flex;
   justify-content: center;
@@ -406,14 +409,6 @@ font-size: 20px;
 }
 
 
-
-@media (max-width: 768px) {
-  /* On smaller screens, adjust card-width to take up full width */
-  .cardz {
-    width: 100%;
-  }
-
-
 /* Logo Glow */
 @-webkit-keyframes glow {
   from {
@@ -463,22 +458,45 @@ font-size: 20px;
     animation: gradient-animation 18s ease infinite;
 }
 
+.yohan {
+  font-size: 30px;
+  font-family: piepie, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(75, 45, 30);
+  line-height: 1.2;
+}
 .intro {
-    font-size: 30px;
+    font-size: 25px;
     font-family: piepie, sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: rgb(75, 45, 30);
+    color: rgb(18, 20, 151);
     line-height: 1.2;
   }
 
-
-
+  .lead {
+    font-size: 1rem; /* Set a base font size */
+    line-height: 1.5; /* Adjust line spacing for readability */
+    max-width: 100%; /* Allow paragraph to wrap at any screen size */
+  }
+  
+  /* Optional media queries for fine-tuning responsiveness across breakpoints: */
+  @media (min-width: 768px) {
+    .lead {
+      font-size: 1.25rem; /* Adjust font size for larger screens (optional) */
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .lead {
+      font-size: 1.5rem; /* Adjust font size for even larger screens (optional) */
+    }
+  }
 
   @media screen and (min-width: 501px) {
     h3 {
       font-size: 10px;
-    }
   }
   
 @keyframes gradient-animation {
