@@ -243,7 +243,10 @@ button:hover {
   animation: glow 1s ease-in-out infinite alternate;
 }
 
-
+.Seniorglow {
+  color: #fff;
+  animation: glow 1s ease-in-out infinite alternate;
+}
 .accordionM {
   color: rgb(216, 101, 101);
 }
@@ -416,10 +419,9 @@ font-size: 20px;
 
 .yohan {
   font-size: 30px;
-  font-family: piepie, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: rgb(75, 45, 30);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color: rgb(68, 71, 71);
   line-height: 1.2;
 }
 .intro {
