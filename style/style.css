@@ -5,7 +5,7 @@
 
 
 body {
-  background: linear-gradient(-45deg, #db4214,#425368, #5d777e, #889da5, #d9dbdb);
+  background: linear-gradient(-45deg, #db4214,#d3259f, #ffffff, #889da5, #8323a0);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
@@ -24,88 +24,44 @@ body {
 }
 
 
-
 .brand {
-    display: flex;
-    align-items: center;
-    flex-grow: 1;
+background-color: rgb(49, 45, 36);
+border-radius: 10px;
+} 
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
-.topnav {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    background-color: #333;
-    position:fixed;
-    z-index: 1000;
-  }
-  
-  .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .active {
-    background-color: #04AA6D;
-    color: white;
-  }
-  
-  .topnav .icon {
-    display: none;
-  }
-  
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-  
-  .dropdown .dropbtn {
-    font-size: 17px;    
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .topnav a:hover, .dropdown:hover .dropbtn {
-    background-color: #555;
-    color: white;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+.nav {
+  color: #e1e5eb;
+}
+.navbar-brand {
+  white-space: nowrap; /* Prevent text wrapping on small screens */
+}
+.nav_link {
+  font-weight: bold;
+  color: rgb(243, 241, 241);
+  background-color: #212127;
+  margin-inline:5px;
+  padding: 22px;
+  border-radius: 10px;
+}
+.nav_link:hover {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(0, 0, 0);
+  background-color: #000000;
+  box-shadow: 0 5px 5px #18067c;
+  border-radius: 10px;
+
+  transition: 0.5s ease;
+  transform: scale(1.05);
+}
+
+.glow {
+  text-shadow: 0 0 0.5em #fff, 0 0 1.5em #007bff; /* Add subtle glow effect (optional) */
+}
 
 .social-media a{
     display: inline-flex;
@@ -119,7 +75,6 @@ body {
     color: aliceblue;
     text-decoration: none;
     transition: .3s ease;
-
   }
 
   .view-btn:hover, .social-media a:hover{
@@ -229,10 +184,7 @@ body {
   align-items: stretch;
 }
 
-.Mainhero {
-  border-bottom-right-radius: 200px;
-  border-bottom-left-radius: 200px;
-}
+
 .projectz {
   display: flex;
   justify-content: center;
@@ -285,7 +237,7 @@ button:hover {
 
 
 .glow {
-  font-size: 80px;
+  font-size: 16px;
   color: #fff;
   text-align: center;
   animation: glow 1s ease-in-out infinite alternate;
