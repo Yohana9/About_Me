@@ -395,6 +395,10 @@ font-size: 20px;
       display: block;
       text-align: left;
     }
+
+    header {
+      margin-bottom: 200px;
+    }
     .topnav.responsive .dropdown {float: none;}
     .topnav.responsive .dropdown-content {position: relative;}
     .topnav.responsive .dropdown .dropbtn {
