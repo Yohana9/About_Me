@@ -36,7 +36,7 @@
 
 
 
-  <header class="d-flex flex-wrap align-items-center justify-content-center  bg-dark
+  <!-- <header class="d-flex flex-wrap align-items-center justify-content-center  bg-dark
   justify-content-md-between py-1 border-bottom">
   <div class="d-flex justify-content-center align-items-center glow">
   <img src="./assets/image/brand.png" height="10" alt="" class="navbar-brand glow pd-5 bg-gradient-warning bg-light border-radius-5 rounded-circle">
@@ -50,8 +50,22 @@
     </ul>
   </header>
 
+ -->
 
-
+ <nav class="d-flex">
+  <div class="logo glow">
+    <img src="./assets/image/brand.png" alt="Logo">
+    <h5> <span>Yohannes Reta</span></h5>
+  </div>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact</a></li>
+    
+  </ul>
+  <div class="menu-icon">&#9776;</div>
+</nav>
 
   <!-- Hero Section -->
 <section id="hero" class="gradient mb-0" >
@@ -742,8 +756,19 @@
 
      
 
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const menuIcon = document.querySelector(".menu-icon");
+      const navList = document.querySelector("nav ul");
+  
+      menuIcon.addEventListener("click", function() {
+        navList.classList.toggle("open");
+      });
+    });
+  </script>
 
-<script>
+  
+      <script>
         const accordionM = document.getElementsByClassName('containerM');
 
       for (i=0; i<accordionM.length; i++) {
