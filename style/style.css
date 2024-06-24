@@ -164,6 +164,12 @@ nav ul li a:hover {
   }
 }
 
+@media  (max-width: 968px) {
+  .certificate{
+    display: flex;
+    flex-direction: column;
+  }
+}
 .glow {
   text-shadow: 0 0 0.5em #fff, 0 0 1.5em #007bff; /* Add subtle glow effect (optional) */
 }
