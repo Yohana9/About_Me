@@ -5,7 +5,7 @@
 
 
 body {
-  background: linear-gradient(-45deg, #db4214,#d3259f, #ffffff, #889da5, #8323a0);
+  background: linear-gradient(-45deg, #140602,#4b494a, #889da5, #889da5, #8323a0);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
@@ -100,7 +100,7 @@ nav ul li {
 }
 
 nav ul li a {
-    background-color: #5d5b6b;
+    /* background-color: #5d5b6b; */
   color: #fff;
   text-decoration: none;
   padding: 8px;
@@ -112,10 +112,10 @@ nav ul li a:hover {
   color: rgb(255, 255, 255);
   background-color: #000000;
   box-shadow: 0 5px 5px #18067c;
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 25px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   font-weight: bold;
-  transition: 0.5s ease;
+  transition: 0.2s ease;
 }
 
 .menu-icon {
@@ -201,7 +201,7 @@ nav ul li a:hover {
     padding: 8px 15px;
     cursor: pointer;
     text-decoration: none;
-    box-shadow: 0 0 20px #0e0c18;
+    box-shadow: 0 0 10px #0e0c18;
     border-radius: 10px;
   }
   
@@ -309,7 +309,7 @@ nav ul li a:hover {
   width: 70%;
   background-color: #323e41;
   border-top-right-radius: 200px;
-  border-bottom-left-radius: 200px;
+  border-top-left-radius: 200px;
   align-items: stretch;
 }
 
@@ -570,9 +570,12 @@ font-size: 20px;
     }
 
     .hero_main{
+      justify-content: center;
+      align-items: center;
       margin: 0 auto;
-      margin-left: 10px;
     }
+
+
     .Mainz{
         margin: 0 auto;
         margin-top: 200px;
